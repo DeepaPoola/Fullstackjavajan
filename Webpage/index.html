@@ -1,6 +1,19 @@
 <html>
     <Head>
         <title>Nani</title>
+        <style>
+            .container
+            {
+               position:relative
+            }
+            .topright
+            {
+               position:absolute;
+               top:8px;
+               right:16px;
+               font-size: 18px;
+            }
+        </style>
     </Head>
     <style>
         body{
@@ -9,22 +22,19 @@
              background-attachment: fixed;
              background-size: 100%100%;
         }
+    .align{
+        display:block;
+        text-align: right;
+    }
     </style>
     <body>
         <h1>Nani Webpage</h1>
-        
-        <div>
-            <ul>
-                <li>
-                    <a href="Home">Home</a>
-                </li>
-                <li>
-                    <a href="About us">About us</a>
-                </li>
-                <li>
-                    <a href="Services">Services</a>
-                </li>
-            </ul>
-        </div>
+        <nav>
+            <div class="align">
+                    <a href="#">Home</a>
+                    <a href="#">About us</a>
+                    <a href="#">Services</a>
+                    </div>
+        </nav>
     </body>
 </html>
