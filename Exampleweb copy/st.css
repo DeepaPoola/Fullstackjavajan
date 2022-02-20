@@ -123,12 +123,10 @@ a.active,a.hover
     }
     
 }
-
 section
 {
     padding: 40px 50px 50px 50px;
     text-align: center;
-    display: inline;
 }
 .inputWrapper label{
     display: block;
@@ -142,34 +140,14 @@ section
     
 }
 figcaption{
-    justify-content: center;
+    text-align: center;
     position: relative;
     bottom: 400px;
-    font-weight: 1000;
+    font-weight: bold;
     color: #FFF;
     text-shadow: 0px 0px 3px;
     font-size: x-large;
-    text-align: center;
     
-}
-.logo{
-    margin: 0 30px;
-    padding-top: 10px;
-}
-.navbar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.nav-links{
-    display: flex;
-    align-items: center;
-}
-.nav-links li{
-    margin: 0 30px;
 }
 
 h2{
@@ -177,7 +155,7 @@ h2{
     
     left: 0;
     width: 100%;
-    font-size: 500%;
+    font-size: 400%;
 }
 
 .image
