@@ -1,0 +1,228 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+.content-wrapper
+{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+
+.text-wrapper
+{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+.text-wrapper h2{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+
+}
+nav
+{
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+label.logo
+{
+    color :black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+.active{
+    color: #fc0368;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    text-align: center;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 10px 13px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+a.active,a.hover
+{
+    background: white;
+    transition: .5s;
+}
+
+.menu-btn{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background:white ;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+          
+    }
+    .nav-links li{
+        margin: 30px auto;
+        
+    }
+    
+}
+
+section
+{
+    padding: 40px 50px 50px 50px;
+    text-align: center;
+    display: inline;
+}
+.inputWrapper label{
+    display: block;
+    padding-left:20px;
+    padding-top: 10px;
+}
+.gfg
+{
+    margin: 3%;
+    position: relative;
+    
+}
+figcaption{
+    justify-content: center;
+    position: relative;
+    bottom: 400px;
+    font-weight: 1000;
+    color: #FFF;
+    text-shadow: 0px 0px 3px;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.logo{
+    margin: 0 30px;
+    padding-top: 10px;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+
+h2{
+    
+    
+    left: 0;
+    width: 100%;
+    font-size: 500%;
+}
+
+.image
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-decoration-color: white;
+}

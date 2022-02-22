@@ -1,25 +1,7 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    padding-right: 25px;
-    background-image: url("./nature.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    background-origin: content-box;
-    height: 500px;
-    width: 90%;
     
 }
 
@@ -53,9 +35,11 @@ a{
     margin: 0 30px;
 }
 header{
-    width: 90vw;
-    height: 90vh;
-   
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./nature.jpg");
+    background-position: bottom;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +47,7 @@ header{
 }
 .header-content{
     margin-bottom: 150px;
-    color: whitesmoke;
+    color: rgb(255, 124, 124);
     text-align: center;
 }
 .header-content h2{
@@ -139,10 +123,3 @@ header{
         
     }
 }
-
-.content-wrapper
-{
-    width: 80%;
-    margin: 4% 10% 5% 10%;
-}
-

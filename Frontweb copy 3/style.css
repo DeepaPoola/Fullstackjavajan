@@ -1,26 +1,35 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    padding-right: 25px;
-    background-image: url("./nature.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    background-origin: content-box;
-    height: 500px;
-    width: 90%;
     
+}
+
+
+form{
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+}
+.row{
+    padding-left: 90px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:20px 30px;
+    margin-bottom: 20px;
+}
+label{
+    color: #1c093c;
+    font-size: 14px;
+}
+input{
+    width: 40%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
 }
 
 ul{
@@ -48,14 +57,15 @@ a{
     display: flex;
     align-items: center;
     padding-right: 20px;
+    text-transform: uppercase;
 }
 .nav-links li{
     margin: 0 30px;
 }
 header{
-    width: 90vw;
-    height: 90vh;
-   
+    width: 100vw;
+    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +73,7 @@ header{
 }
 .header-content{
     margin-bottom: 150px;
-    color: whitesmoke;
+    color: rgb(255, 124, 124);
     text-align: center;
 }
 .header-content h2{
@@ -84,6 +94,66 @@ header{
     margin-bottom: 30px;
     
 }
+.logo {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+  }
+.home {
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    border-radius: 1rem;
+    padding: 20px;
+    align-items: center;
+    background: url(./nature.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    min-height: 80vh;
+    
+    justify-content: center;
+    padding-bottom: 5rem;
+  }
+  
+  .home .content {
+    text-align: center;
+  }
+  
+  .home .content span {
+    font-weight: bolder;
+    color: transparent;
+   
+    font-size: 4vw;
+    display: block;
+  }
+  
+  .home .content h3,h1 {
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+  }
+  .btn{
+    padding: 8px 15px;
+    background: #fc0368;
+    border-radius: 20px;
+    color: whitesmoke;
+    
+    
+}
+  
+.find{
+    
+    background: #fc0368;
+    border-radius: 20px;
+    color: whitesmoke;
+    
+    
+    
+}
+  
+
 .ctn{
     padding: 8px 15px;
     background: #fc0368;
@@ -139,10 +209,3 @@ header{
         
     }
 }
-
-.content-wrapper
-{
-    width: 80%;
-    margin: 4% 10% 5% 10%;
-}
-

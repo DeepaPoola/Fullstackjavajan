@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     
 </head>
-<body>
+<body class="container">
     <nav class="navbar">
         
         <h1 class="logo">Environment</h1>
@@ -21,7 +21,6 @@
         </ul>
             <img src="./images/menu-btn.png" class="menu-btn" />   
     </nav>
-    
     <section class="home" id="home">
 
         <div class="content">
@@ -32,6 +31,37 @@
         </div>
     
     </section>
+    <section >
+        
+
+        <form >
+            <div  class="row">
+                <div class="column">
+                <label>Name</label>
+                <input type="text" placeholder="Place Name" value="">
+                </div>
+                <div>
+                    <label>Email</label>
+                <input type="text" placeholder="Place Email" value="">
+                </div>
+            </div>
+            <div  class="row">
+                <div class="column">
+                <label>Phone</label>
+                <input type="number" placeholder="Place Number" value="">
+                </div>
+                <div>
+                    <label>Message</label>
+                <input type="text" placeholder="Place Message" value="">
+                </div>
+            </div>
+            
+            <button class="find">Find now</button>
+        </form>
+    
+    </section>
+
+    
 
     <script>
        const menubtn=document.querySelector('.menu-btn')

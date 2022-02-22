@@ -8,7 +8,7 @@
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
-        <nav>
+        <nav class="navbar">
             
             <label class="logo">Environment</label>
             <ul class="nav-links">
@@ -18,23 +18,20 @@
             </ul>
             <img src="./images/menu-btn.png" class="menu-btn" /> 
         </nav>
-        
+        <section>
             
-              <section>
+              <figure>
+            <img src="./nat.jpg"  style="width: 90%" height="500px"/>
+            <h2>
+                <span>
+            <figcaption style="color: white;">Save The Plant...</figcaption>
             
-            </section>
-            <header>
-                <div class="header-content">
-                    
-                    <h2>Save The Plant</h2>
-                    <div class="line"></div>
-                    <h1>Save The Life</h1>
-                    
-                    <a href="#" class="ctn">Book Now</a>
-                    <img src="./nat.jpg"  style="width: 90%" height="500px"/>
-                </div>
-            </header>
-        
+            <figcaption style="color:white">Save The life...</figcaption>
+            </span>
+            </h2>
+
+        </figure>
+        </section>
         <script>
             const menubtn=document.querySelector('.menu-btn')
             const navlinks =document.querySelector('.nav-links')
@@ -42,6 +39,7 @@
                 navlinks.classList.toggle('mobile-menu')
             })
          </script>
+        
 
     </body>
 </html>
