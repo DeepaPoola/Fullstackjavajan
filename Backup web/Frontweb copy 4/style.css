@@ -4,7 +4,13 @@
     box-sizing: border-box;
     
 }
-
+.box{
+    background: url(./nature.jpg) no-repeat;
+    padding: 200px 100px;
+    margin: 100px;
+    background-size: cover;
+    background-position: center;
+}
 
 form{
     width: 100%;
@@ -101,16 +107,14 @@ header{
 
   }
  
-.home {
+.body {
     margin: 0 auto;
     margin-top: 9rem;
     width: 90%;
     border-radius: 1rem;
     padding: 20px;
     align-items: center;
-    background: url(./nature.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    
     
     display: flex;
     min-height: 80vh;
