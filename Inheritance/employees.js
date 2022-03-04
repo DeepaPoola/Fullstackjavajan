@@ -97,6 +97,7 @@ let employees = [{ "id": 1, "name": "Dulci", "email": "dnewport0@google.pl", "ge
 { "id": 97, "name": "Kerry", "email": "kmoysey2o@newyorker.com", "gender": "Male" },
 { "id": 98, "name": "Sandye", "email": "sbilsborrow2p@nifty.com", "gender": "Male" },
 { "id": 99, "name": "Danila", "email": "dwinn2q@prnewswire.com", "gender": "Female" },
-{ "id": 100, "name": "Prentice", "email": "pvlasin2r@google.ru", "gender": "Male" }]
+{ "id": 100, "name": "Prentice", "email": "pvlasin2r@google.ru", "gender": "Male"}
+]
 
-module.exports.employees =[] ;
+module.exports = employees;

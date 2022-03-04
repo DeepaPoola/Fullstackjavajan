@@ -1,5 +1,5 @@
-const employees = require('./employees.js')
 
+const employees = require('./employees.js');
 function displayData() {
     
     let row = ""
