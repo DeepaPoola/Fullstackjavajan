@@ -1,0 +1,19 @@
+<html>
+    <head></head>
+    <body>
+        <form onsubmit="return validate()">
+            <label>Username</label>
+            <input id="username" type="text"/><br/>
+            <input type="submit"/>
+        </form>
+    </body>
+    <script>
+        function validate() {
+            let tag_Ref = document.getElementById("username");
+            console.log(tag_Ref);
+            let user = document.getElementById("username").value;
+            console.log(user);
+            return false
+        }
+    </script>
+</html>

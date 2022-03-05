@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <body>
+        <form onsubmit=" return validate()">
+            <label>Username</label>
+            <input id="username" type="text"/><br/>
+            <input type="submit"/>
+        </form>
+    </body>
+    <script>
+        function validate() {
+          let user = document.getElementById("username").value;
+          console.log(user);
+            if(user == "")
+            {
+                alert("Please enter Name")
+            }
+            return false;
+        }
+    </script>
+</html>

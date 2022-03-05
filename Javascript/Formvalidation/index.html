@@ -1,0 +1,45 @@
+<html>
+    <head></head>
+    <body>
+        <form onsubmit="return validate()">
+            <label>Username</label>
+            <input id="username" type="text"/><br/>
+            <span id="message" style="color: red;"></span><br/>
+            <label>Email</label>
+            <input id="mail" type="text"/><br/>
+            <span id="mailmsg" style="color: red;"></span><br/>
+            <label>Password</label>
+            <input id="pass" type="password"/><br/>
+            <span id="userpassword" style="color: red;"></span><br/>
+            <input type="submit"/>
+        </form>
+    </body>
+    <script>
+        function validate() {
+          let name = document.getElementById("username").value;
+          let email = document.getElementById("mail").value;
+          let password = document.getElementById("pass").value;
+            if(name == "")
+            {
+                document.getElementById("message").innerHTML = "Please enter Name";
+                return false;//if you dont want loose the message 
+            }
+            if(name.length < 6)
+            {
+                document.getElementById("message").innerHTML = "Please enter min 6 characters"
+                return false;
+            }
+            if(email == "")
+            {
+                document.getElementById("mailmsg").innerHTML = "Please enter emailId"
+                return false;
+            }
+            if(password == "" || password.length < 8)
+            {
+                document.getElementById("userpassword").innerHTML = "Please enter min 6"
+                return false;
+            }
+            
+        }
+    </script>
+</html>
