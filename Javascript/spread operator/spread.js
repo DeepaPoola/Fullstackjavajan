@@ -6,3 +6,4 @@ for(x of a){
 a[0]=5
 console.log(a)
 console.log(b)
+//spread operator use in array and object
