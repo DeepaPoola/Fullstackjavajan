@@ -6,7 +6,7 @@ let data =[{id:11,name:"deepa",salary:10000},{id:12, name:"Poola",salary:20000}]
 /*for(emp in employees)
 {
     //console.log(employees[a]);//to read all values
-    console.log(employees[emp]);
+    console.log(employees[emp]);//it is for if object has only one value
 }*/
 for(i of data){
     //console.log(data[i]);
