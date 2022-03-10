@@ -1,0 +1,15 @@
+.event{
+    padding: 20px 100px;
+}
+.event label input{
+    width: 30%;
+    align-items: center;
+}
+.event label{
+    
+    position: absolute;
+}
+h1{
+    padding-left: 30px;
+    align-content: center;
+}

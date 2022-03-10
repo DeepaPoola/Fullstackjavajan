@@ -1,5 +1,5 @@
 /*function wish(a){
-    return "Hello world" +a
+    return "Hello world" +a 
 }
 console.log(wish(10))*/
 function display() {
