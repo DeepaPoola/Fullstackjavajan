@@ -1,16 +1,18 @@
 class Add{
-    constructor(sno,sname){
-      sno=sno;
-      sname=sname
+    constructor(name,sal){
+    
+      this.name=name;
+      this.sal=sal
     }
   }
-  class Sub{
-    constructor(sno,sname,address){
-        sno=sno
-        sname=sname
-        address=address
+  class Sub extends Add{
+    constructor(sno,sname,name,sal){
+      super(name,sal);
+        this.sno=sno
+        this.sname=sname
+        //super(name,sal);//if we write here it will give error because first we have to call parent class constructor
         
     }
   }
-  let result=new Sub(10,"Guntur",new Add(20,"Pochampally"))
+  let result=new Sub(10,"Guntur","Sunny",50000)
   console.log(result)
