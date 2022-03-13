@@ -1,9 +1,13 @@
+import React from 'react'
 import Navbar from './Navbar/navbar'
-let App = () => {
+import Message from './Message/Message'
+const App = () => {
 
-    return <div>
+    return (
+    <div>
         <Navbar />
+        <Message/>
         </div>
-        
+    )   
 }
 export default App
