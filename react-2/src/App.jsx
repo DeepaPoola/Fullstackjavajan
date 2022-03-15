@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar/navbar'
-import CompC from './Props3/CompC'
+import Message from './Message/Message'
 const App = () => {
 
     return (
     <div>
         <Navbar />
-        <CompC/>
+        <Message/>
         </div>
     )   
 }
