@@ -4,9 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url(./climate.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: lightblue;
 }
 .container{
     width: 360px;

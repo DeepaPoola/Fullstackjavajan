@@ -1,21 +1,26 @@
 import React from 'react'
-class Message extends React.Component{
-    message="Hello! Sunny"
-    name= "Nallapu Sunny"
+class Message extends React.Component {
+    state ={
+        message : "Hello"
+    }
     gmHandler=()=>{
-       console.log("Test 123");
-       this.message="Hello Good Morning";
-       console.log(this.message);
-       this.forceUpdate()
+        console.log("Test Two")
+        this.setState({message:"Good Morning"})
     }
-    render(){
-        return <div>
-            <h2>Message Component</h2>
-            <h4>Name:{this.name}</h4>
-            <h3>Message:{this.message}</h3>
-            <button onClick={this.gmHandler}>Click Me</button>
-            
-        </div>
+    gaHandler=()=>{
+      this.setState({message:"Good Afternoon"})
     }
+    render(){console.log("Test One")
+        return <>
+        <h1>Message component</h1>
+        <h1>Message:{this.state.message}</h1>
+        <button onClick={this.gmHandler}>Hello</button>
+        <button onClick={this.gaHandler}>Bye</button>
+        </>
+    }
+    
+    
 }
+
+
 export default Message

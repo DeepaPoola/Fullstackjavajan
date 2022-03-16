@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar/navbar'
-import Product from './Product/Product'
+import Message from './Message/Message'
 const App = () => {
 
     return (
     <div>
         <Navbar />
-        <Product/>
+        <Message/>
         </div>
     )   
 }

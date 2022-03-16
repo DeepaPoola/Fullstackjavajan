@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar/navbar'
-import Product from './Product/Product'
+import Counter from './Counter/Counter'
 const App = () => {
 
     return (
     <div>
         <Navbar />
-        <Product/>
+        <Counter/>
         </div>
     )   
 }
