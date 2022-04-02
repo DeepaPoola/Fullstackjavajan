@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar/navbar'
-import Login from './Form/Login'
+import Message from './Message/Message'
 //import Product from './Product/Product'
 const App = () => {
 
@@ -8,7 +8,7 @@ const App = () => {
     <div>
         <Navbar/>
         
-        <Login/>
+        <Message/>
         </div>
     )   
 }
