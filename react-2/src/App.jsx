@@ -1,21 +1,24 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar/Navbar'
-import Message from './Hook/Message'
-import Counter from './Hook/Counter'
+import Product from './Product/Product'
+import { store } from './Redux/store'
+import { Provider } from 'react-redux'
+import Message from './Message/Message'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-
 class App extends Component {
     render() {
         return (
             <div>
-                <Router>
-                    <Navbar />
-                    <Routes>
-                        <Route path="/useState" element={<Message />} />
-                        <Route path="/counter" element={<Counter />} />
+                <Provider store={store}>
+                    <Router>
+                        <Navbar />
+                        <Routes>
+                            <Route path="/counter" element={<Product />} />
+                            <Route path="/message" element={<Message />} />
+                        </Routes>
+                    </Router>
+                </Provider>
 
-                    </Routes>
-                </Router>
             </div>
         )
     }
