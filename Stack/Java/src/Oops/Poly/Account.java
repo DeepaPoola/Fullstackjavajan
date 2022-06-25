@@ -1,6 +1,6 @@
 package Oops.Poly;
 
-public class Account {
+public class Account extends Bank {
 	private int acc_Id=10;
 	private String name;
 	public int getAcc_Bal() {
