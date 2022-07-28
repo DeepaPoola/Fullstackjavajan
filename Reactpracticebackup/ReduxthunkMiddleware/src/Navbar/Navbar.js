@@ -10,12 +10,7 @@ class Navbar extends Component {
         <div className="ml-auto">
             <ul className="navbar-nav">
                 <li className="nav-list">
-                    <Link to="/register" className="nav-link">Useref Example</Link>
-                   
-                    </li>
-                    <li className="nav-list">
-                    
-                    <Link to="/signup" className="nav-link">Sign</Link>
+                    <Link to="/user" className="nav-link">User data from Redux Store</Link>
                     </li>
                     
             </ul>
