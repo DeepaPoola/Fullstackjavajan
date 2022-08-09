@@ -1,0 +1,14 @@
+Installation Process for full stack softwares:-
+
+1.Visual studio code
+No need to set path for this,after installng it directly executed. We have to add extensions like live server by ritwick dev,es7+React/Redux for react, language support for java(TM) by red hat for java
+
+2.node js
+After installing node js we have to set path in environment variables(C:\Program Files\nodejs) and also we can check whether it is installed or  not by command prompt. In cmd type node we can get  node version
+
+3.java jdk
+After installing java we have to set path in  environment variables in system (C:\Program Files\Java\jdk-18.0.1.1\bin) . In command prompt type java we will get version and details ofjava
+
+system and security->advanced system settings-> environment variables->system
+
+4.spring tools suite

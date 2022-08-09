@@ -4,7 +4,8 @@ const GN="GN"
 //action
 let gmAction=()=>{
     console.log("Test gmAction")
-    return {type:GM}
+    //invoking the api - data
+    return {type:GM,payload: "Hello world"}
 }
 let gnAction=()=>{
     console.log("Test gnAction")
