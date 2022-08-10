@@ -1,0 +1,16 @@
+After installation of Springtool suite 4
+
+We have to start with new project as spring starter project in sts, there we can give folder name and change package name and group name(both must be with name).
+for demo or normal hello world project no need to add dependencies.after that right click on project select maven and update maven project
+
+Or
+we can add spring starter project in chrome by typing spring.i.o then select intializr.In that also we can add dependencies and generate those dependencies. After that unzip those dependency and open sts and import that dependency
+
+open sts->file->import->maven->existing maven projects->next->browse and select the check box then select next->finish
+
+For JDBC:-
+We have to add jdbc API and sql driver dependencies while creating spring starter project and we have to install SQLYOg in our laptop
+
+For MVC:-
+Spring web,jdbc api,sql driver
+

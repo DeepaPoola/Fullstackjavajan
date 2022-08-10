@@ -11,4 +11,14 @@ After installing java we have to set path in  environment variables in system (C
 
 system and security->advanced system settings-> environment variables->system
 
-4.spring tools suite
+4.git
+No need to set path for this,after installng it directly executed.we can check in cmd by typing git
+
+5.spring tools suite
+No need to set path for this.But for java and springboot we have to open separate workspace for both.
+
+For Chrome extensions:-
+
+redux devtools- extension
+grepper
+json formatter
