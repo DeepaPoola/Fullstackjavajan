@@ -12,5 +12,38 @@ For JDBC:-
 We have to add jdbc API and sql driver dependencies while creating spring starter project and we have to install SQLYOg in our laptop
 
 For MVC:-
-Spring web,jdbc api,sql driver
+->add Spring web dependency in new sts project
+
+->we create some folders in src like below
+src->main-> create Webapp->create WEB-INF->create views->create file as .jsp(whatever we give file name that should be given in java program(HelloController.java))
+
+->we have to add some information in application properties
+src/main/resources->application.properties
+server.port = 7878
+server.servlet.context-path=/Myapp
+
+##views##
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+
+
+->after that search jasper dependency in springboot in chrome. Copy that and paste below spring-boot-starter-web in Pom.xml
+ <dependency>
+        <groupId>org.apache.tomcat.embed</groupId>
+        <artifactId>tomcat-embed-jasper</artifactId>
+        <scope>provided</scope>
+    </dependency>
+
+After that update maven project and run as springboot then open chrome and type localhost:7878/Myapp/hello we will get output
+
+7878- host number(we can give whatever number as our wish)
+
+hello- will be given in hellocontroller.java
+
+->Inorder to start and stop server automatically we have to add spring devtools dependency(without this we have to manually stop the server by clicking red colour in console)
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+ 
 
