@@ -1,14 +1,10 @@
 package com.mystack.controller;
 
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-//import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-//import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.mystack.dao.RegistrationDaoImpl;
@@ -16,7 +12,7 @@ import com.mystack.model.CustomerBean;
 import com.mystack.service.EmailService;
 
 @Controller
-public class CRMController {
+public class CRM2Controller {
 	
 	@Autowired
 	RegistrationDaoImpl regDao;
@@ -35,6 +31,7 @@ public class CRMController {
 		//database business login
 		return "registration";
 	}
+	
 	@PostMapping("/save")
 	public String registerCustomer(@ModelAttribute("custBean") CustomerBean customerBean) {
 		System.out.println(customerBean.getFirstName());

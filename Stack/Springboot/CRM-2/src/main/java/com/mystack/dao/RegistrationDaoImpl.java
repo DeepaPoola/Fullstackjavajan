@@ -16,7 +16,7 @@ public class RegistrationDaoImpl implements IRegistrationDao {
 	public boolean saveCustomer(CustomerBean customerBean) {
 		// TODO Auto-generated method stub
 		System.out.println(customerBean);
-		String sqlcommand = "insert into UserOne values(?,?,?,?)";
+		String sqlcommand = "insert into UserTwo values(?,?,?,?)";
 		jt.update(sqlcommand, customerBean.getFirstName(),customerBean.getEmail(),customerBean.getMobile(),customerBean.getPassword());
 		return true;
 	}
