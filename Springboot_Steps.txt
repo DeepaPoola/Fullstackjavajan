@@ -14,7 +14,7 @@ We have to add jdbc API and sql driver dependencies while creating spring starte
 For MVC:-
 ->add Spring web dependency in new sts project
 
-->we create some folders in src like below
+->we have to create some folders in src like below
 src->main-> create Webapp->create WEB-INF->create views->create file as .jsp(whatever we give file name that should be given in java program(HelloController.java))
 
 ->we have to add some information in application properties
@@ -46,4 +46,5 @@ hello- will be given in hellocontroller.java
     <artifactId>spring-boot-devtools</artifactId>
 </dependency>
  
+--> 
 
